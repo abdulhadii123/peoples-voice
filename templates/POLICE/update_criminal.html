@@ -1,0 +1,101 @@
+{% extends "POLICE/police_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<form action="" method="post" enctype="multipart/form-data">
+<table class="table table-bordered" style="background-color: black">
+                        <h1 class="display-5 mb-5">UPDATE CRIMINAL </h1>
+
+  <tr>
+    <th>Name</th>
+    <td>
+      <input type="text" name="textfield" id="textfield"  class="form-control" value="{{ data.name }}"/></td>
+  </tr>
+  <tr>
+    <th>DOB</th>
+    <td>
+      <input type="text" name="textfield2" id="textfield2 " class="form-control" value="{{ data.dob }}" /></td>
+  </tr>
+  <tr>
+    <th>Gender</th>
+    <td><p>
+      <label>
+        <input type="radio" name="RadioGroup1" value="MALE" {% if data.gender=='MALE' %} checked {% endif %} />
+        MALE
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="RadioGroup1" value="FEMALE" {% if data.gender=='FEMALE' %}checked{% endif %} />
+        FEMALE
+      </label>
+      <br />
+    </p></td>
+  </tr>
+    <tr>
+    <th>Place</th>
+    <td>
+      <input type="text" name="textfield3" id="textfield3" class="form-control" value="{{ data.place }}"/></td>
+  </tr>
+  <tr>
+    <th>Pin</th>
+    <td>
+      <input type="text" name="textfield4" id="textfield4" class="form-control" value="{{ data.pin }}" /></td>
+  </tr>
+  <tr>
+    <th>Post</th>
+    <td>
+      <input type="text" name="textfield5" id="textfield5" class="form-control" value="{{ data.post}}" /></td>
+  </tr>
+  <tr>
+    <th>District</th>
+    <td>
+      <select name="select" size="1" id="select" class="form-control">
+        <option value="Kannur" {% if "Kannur"==data.district %} selected{% endif %}>Kannur</option>
+        <option value="kozhikode" {% if "kozhikode"==data.district %}selected{% endif %}>Kozhikode</option>
+        <option value="wayanad"{% if "wayanad"==data.district %}selected{% endif %}>Wayanad</option>
+        <option value="kollam"{% if "kollam"==data.district %}selected{% endif %}>Kollam</option>
+        <option value="thiruvanthapuram"{% if "thiruvanthapuram"==data.district %}selected{% endif %}>Thiruvanathapuram</option>
+        <option value="kasargode"{% if "kasargode"==data.district %}selected{% endif %}>Kasargode</option>
+        <option value="malapuram"{% if "malapuram"==data.district %}selected{% endif %}>Malapuram</option>
+        <option value="palakad"{% if "palakad"==data.district %}selected{% endif %}>Palakad</option>
+        <option value="thirshur"{% if "thirshur"==data.district %}selected{% endif %}>Thirshur</option>
+        <option value="ernakulam"{% if "ernakulam"==data.district %}selected{% endif %}>Ernakulam</option>
+        <option value="idukki"{% if "idukki"==data.district %}selected{% endif %}>Idukki</option>
+        <option value="kottayam"{% if "kottayam"==data.district %}selected{% endif %}>kottayam</option>
+        <option value="alapuzha"{% if "Alapuzha"==data.district %}selected{% endif %}>Alapuzha</option>
+          <option value="patanamthita"{% if "patanamthita"==data.district %}selected{% endif %}>Patanamthita</option>
+
+      </select></td>
+  </tr>
+  <tr>
+    <th>Photo</th>
+    <td>
+        <img src="{{ data.image }}" height="100" width="100"/>
+      <input type="file" name="fileField" id="fileField" class="form-control" /></td>
+  </tr>
+  <tr>
+    <th>Phone</th>
+    <td>
+      <input type="text" name="textfield6" id="textfield6" class="form-control" value="{{ data.phone_no }}" /></td>
+  </tr>
+  <tr>
+    <td colspan="2"align="center"><input type="submit" name="button" id="button" value="UPDATE" class="btn btn-outline-success" /></td>
+    </tr>
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

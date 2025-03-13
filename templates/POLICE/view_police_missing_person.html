@@ -1,0 +1,61 @@
+{% extends "POLICE/police_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th,td{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<form action="" method="get">
+<table class="table table-bordered"  style="background-color: black">
+                    <h1 class="display-5 mb-5">VIEW MISSING PERSON</h1>
+
+  <tr>
+    <th>#</th>
+    <th>NAME</th>
+    <th>AGE</th>
+    <th>GENDER</th>
+    <th>PLACE</th>
+    <th>MISSING DATE</th>
+    <th>RELATIVE CONTACT</th>
+    <th>IMAGE</th>
+    <th>HEIGHT</th>
+    <th>WEIGHT</th>
+    <th>LANGUAGE</th>
+    <th>DISABILITY</th>
+    <th>&nbsp;</th>
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>&nbsp;{{ i.name }}</td>
+    <td>&nbsp;{{ i.age }}</td>
+    <td>&nbsp;{{ i.gender }}</td>
+    <td>&nbsp;{{ i.place }}</td>
+    <td>&nbsp;{{ i.missing_date }}</td>
+    <td>&nbsp;{{ i.contact_number }}</td>
+    <td><img src="{{ i.image }}" height="100" width="200"</td>
+    <td>&nbsp;{{ i.height }}</td>
+    <td>&nbsp;{{ i.weight }}</td>
+    <td>&nbsp;{{ i.known_language }}</td>
+    <td>&nbsp;{{ i.disability }}</td>
+    <td><p><a href="/update_missing_person/{{ i.missing_id }}#f" class="btn btn-success">UPDATE</a></p>
+      <p><a href="/delete_missing_person/{{ i.missing_id }}#f" onclick="return confirm('Are you sure to delete?')" class="btn btn-danger">DELETE</a></p></td>
+{#              <td><p><a href="/view_missing_alert/{{ i.missing_id }}">missing person alert</a></p>#}
+  </tr>
+    {% endfor %}
+</table>
+
+
+</form>
+</body>
+</html>
+{% endblock %}

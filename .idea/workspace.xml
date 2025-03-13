@@ -1,0 +1,2144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ced5a92-4b45-44c3-b018-9943286f857c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PEOPLE_S_VOICE$camera.coverage" NAME="camera Coverage Results" MODIFIED="1675693235213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PEOPLE_S_VOICE$PEOPLE_S_VOICE.coverage" NAME="PEOPLE'S_VOICE Coverage Results" MODIFIED="1676092356951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="camera.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/camera.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2414">
+              <caret line="178" column="40" lean-forward="false" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="40" />
+              <folding>
+                <element signature="e#36#46#0" expanded="true" />
+                <element signature="e#5196#6548#0" expanded="false" />
+                <marker date="1675693579150" expanded="true" signature="478:496" ph="select * fro... cctv" />
+                <marker date="1675693579150" expanded="true" signature="1062:1178" ph="select * fro... criminal" />
+                <marker date="1675693579150" expanded="true" signature="1344:1448" ph="select * fro... criminal_alert" />
+                <marker date="1675693579150" expanded="true" signature="1483:1566" ph="select * fro... criminal_alert" />
+                <marker date="1675693579150" expanded="true" signature="1483:1582" ph="select * fro... criminal_alert" />
+                <marker date="1675693579150" expanded="true" signature="1483:1583" ph="select * fro... criminal_alert" />
+                <marker date="1675693579150" expanded="true" signature="1847:1937" ph="insert into `criminal_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="1968:2110" ph="insert into `criminal_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="1968:2125" ph="insert into `criminal_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="1968:2147" ph="insert into `criminal_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="1968:2148" ph="insert into `criminal_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="2185:2219" ph="select * fro... cctv" />
+                <marker date="1675693579150" expanded="true" signature="3305:3341" ph="update crimi... " />
+                <marker date="1675693579150" expanded="true" signature="3305:3354" ph="update crimi... " />
+                <marker date="1675693579150" expanded="true" signature="3305:3366" ph="update crimi... " />
+                <marker date="1675693579150" expanded="true" signature="3305:3380" ph="update crimi... " />
+                <marker date="1675693579150" expanded="true" signature="3305:3400" ph="update crimi... " />
+                <marker date="1675693579150" expanded="true" signature="3305:3411" ph="update crimi... " />
+                <marker date="1675693579150" expanded="true" signature="3305:3427" ph="update crimi... " />
+                <marker date="1675693579150" expanded="true" signature="3305:3428" ph="update crimi... " />
+                <marker date="1675693579150" expanded="true" signature="3305:3430" ph="update crimi... " />
+                <marker date="1675693579150" expanded="true" signature="3823:3857" ph="select * fro... cctv" />
+                <marker date="1675693579150" expanded="true" signature="4478:4611" ph="select * fro... missing_person" />
+                <marker date="1675693579150" expanded="true" signature="4747:4860" ph="select * fro... missing_person_alert" />
+                <marker date="1675693579150" expanded="true" signature="4895:4987" ph="select * fro... missing_person_alert" />
+                <marker date="1675693579150" expanded="true" signature="4895:4991" ph="select * fro... missing_person_alert" />
+                <marker date="1675693579150" expanded="true" signature="4895:4997" ph="select * fro... missing_person_alert" />
+                <marker date="1675693579150" expanded="true" signature="4895:5010" ph="select * fro... missing_person_alert" />
+                <marker date="1675693579150" expanded="true" signature="4895:5017" ph="select * fro... missing_person_alert" />
+                <marker date="1675693579150" expanded="true" signature="4895:5026" ph="select * fro... missing_person_alert" />
+                <marker date="1675693579150" expanded="true" signature="4895:5040" ph="select * fro... missing_person_alert" />
+                <marker date="1675693579150" expanded="true" signature="4895:5056" ph="select * fro... missing_person_alert" />
+                <marker date="1675693579150" expanded="true" signature="5321:5417" ph="insert into `missing_person_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="5448:5569" ph="insert into `missing_person_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="5448:5570" ph="insert into `missing_person_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="5448:5595" ph="insert into `missing_person_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="5448:5610" ph="insert into `missing_person_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="5448:5632" ph="insert into `missing_person_alert`... " />
+                <marker date="1675693579150" expanded="true" signature="5984:6018" ph="select * fro... cctv" />
+                <marker date="1675693579150" expanded="true" signature="6594:6687" ph="update missi... " />
+                <marker date="1675693579150" expanded="true" signature="7284:7318" ph="select * fro... cctv" />
+                <marker date="1675693579150" expanded="true" signature="8410:8432" ph="select * fro... criminal" />
+                <marker date="1675693579150" expanded="true" signature="10410:10438" ph="select * fro... missing_person" />
+                <marker date="1675693579150" expanded="true" signature="12482:12510" ph="select * fro... missing_person" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PEOPLE'S_VOICE.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PEOPLE'S_VOICE.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="1236" column="83" lean-forward="false" selection-start-line="1236" selection-start-column="83" selection-end-line="1236" selection-end-column="83" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1676091214860" expanded="true" signature="507:543" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="507:549" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="507:563" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="507:569" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="507:571" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="1733:1774" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="1733:1780" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="1733:1786" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="1733:1790" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="1733:1796" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="1733:1804" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="1733:1810" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="1991:2036" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="1991:2038" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="1991:2044" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="2238:2315" ph="insert into crime_category... " />
+                <marker date="1676091214860" expanded="true" signature="2238:2323" ph="insert into crime_category... " />
+                <marker date="1676091214860" expanded="true" signature="2238:2330" ph="insert into crime_category... " />
+                <marker date="1676091214860" expanded="true" signature="2238:2332" ph="insert into crime_category... " />
+                <marker date="1676091214860" expanded="true" signature="2674:2702" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="2863:2891" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="3277:3315" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="3277:3321" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="3277:3340" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="3277:3360" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="3277:3368" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="3277:3369" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="3277:3370" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="3538:3586" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="3538:3594" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="3538:3596" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="3840:3886" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="3840:3894" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="3840:3896" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="4271:4315" ph="select * fro... emergency_contact" />
+                <marker date="1676091214860" expanded="true" signature="4271:4323" ph="select * fro... emergency_contact" />
+                <marker date="1676091214860" expanded="true" signature="4271:4337" ph="select * fro... emergency_contact" />
+                <marker date="1676091214860" expanded="true" signature="4271:4345" ph="select * fro... emergency_contact" />
+                <marker date="1676091214860" expanded="true" signature="4532:4614" ph="insert into emergency_contact... " />
+                <marker date="1676091214860" expanded="true" signature="5351:5376" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="5351:5385" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="5351:5387" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="5351:5393" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="5577:5679" ph="insert into login... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5812" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5826" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5827" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5833" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5835" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5841" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5843" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5850" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5852" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5858" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5860" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5867" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5869" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5877" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5879" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5887" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="5709:5888" ph="insert into police... " />
+                <marker date="1676091214860" expanded="true" signature="6937:6957" ph="select * fro... police" />
+                <marker date="1676091214860" expanded="true" signature="7118:7138" ph="select * fro... police" />
+                <marker date="1676091214860" expanded="true" signature="7735:7768" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7774" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7782" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7788" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7796" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7803" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7814" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7820" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7833" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7840" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7851" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7859" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7871" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7879" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7896" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7904" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="7735:7906" ph="update polic... " />
+                <marker date="1676091214860" expanded="true" signature="8072:8103" ph="select * fro... police" />
+                <marker date="1676091214860" expanded="true" signature="8072:8110" ph="select * fro... police" />
+                <marker date="1676091214860" expanded="true" signature="8072:8118" ph="select * fro... police" />
+                <marker date="1676091214860" expanded="true" signature="8072:8120" ph="select * fro... police" />
+                <marker date="1676091214860" expanded="true" signature="8358:8400" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="8422:8466" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="8677:8742" ph="select * fro... complaint" />
+                <marker date="1676091214860" expanded="true" signature="8903:8968" ph="select * fro... complaint" />
+                <marker date="1676091214860" expanded="true" signature="9299:9327" ph="update compl... " />
+                <marker date="1676091214860" expanded="true" signature="9299:9333" ph="update compl... " />
+                <marker date="1676091214860" expanded="true" signature="9299:9334" ph="update compl... " />
+                <marker date="1676091214860" expanded="true" signature="9299:9345" ph="update compl... " />
+                <marker date="1676091214860" expanded="true" signature="9299:9354" ph="update compl... " />
+                <marker date="1676091214860" expanded="true" signature="9299:9375" ph="update compl... " />
+                <marker date="1676091214860" expanded="true" signature="9299:9383" ph="update compl... " />
+                <marker date="1676091214860" expanded="true" signature="9299:9385" ph="update compl... " />
+                <marker date="1676091214860" expanded="true" signature="9728:9866" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="10029:10266" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="10029:10286" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="10029:10297" ph="select crimi... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="10029:10298" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="10328:10344" ph="select crimi... criminal" />
+                <marker date="1676091214860" expanded="true" signature="10328:10560" ph="select crimi... criminal" />
+                <marker date="1676091214860" expanded="true" signature="10328:10801" ph="select crimi... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="10328:10804" ph="select crimi... " />
+                <marker date="1676091214860" expanded="true" signature="10567:10800" ph="select crimi... criminal" />
+                <marker date="1676091214860" expanded="true" signature="11047:11110" ph="select * fro... feedback" />
+                <marker date="1676091214860" expanded="true" signature="11271:11334" ph="select * fro... feedback" />
+                <marker date="1676091214860" expanded="true" signature="11586:11669" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="11830:11897" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="11830:11913" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="12173:12206" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="12173:12232" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="12173:12240" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="12173:12242" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="12506:12569" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="12506:12577" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="12506:12579" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="12832:12935" ph="select * fro... most_wanted_criminal" />
+                <marker date="1676091214860" expanded="true" signature="13097:13152" ph="select * fro... most_wanted_criminal" />
+                <marker date="1676091214860" expanded="true" signature="13097:13200" ph="select * fro... most_wanted_criminal" />
+                <marker date="1676091214860" expanded="true" signature="13705:13789" ph="insert into cctv... " />
+                <marker date="1676091214860" expanded="true" signature="13705:13799" ph="insert into cctv... " />
+                <marker date="1676091214860" expanded="true" signature="13705:13809" ph="insert into cctv... " />
+                <marker date="1676091214860" expanded="true" signature="13705:13819" ph="insert into cctv... " />
+                <marker date="1676091214860" expanded="true" signature="13705:13829" ph="insert into cctv... " />
+                <marker date="1676091214860" expanded="true" signature="13705:13838" ph="insert into cctv... " />
+                <marker date="1676091214860" expanded="true" signature="13705:13840" ph="insert into cctv... " />
+                <marker date="1676091214860" expanded="true" signature="14164:14182" ph="select * fro... cctv" />
+                <marker date="1676091214860" expanded="true" signature="14343:14361" ph="select * fro... cctv" />
+                <marker date="1676091214860" expanded="true" signature="14873:14900" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:14908" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:14917" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:14925" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:14936" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:14944" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:14955" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:14963" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:14975" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:14983" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:14998" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="14873:15006" ph="update cctv " />
+                <marker date="1676091214860" expanded="true" signature="15169:15203" ph="select * fro... cctv" />
+                <marker date="1676091214860" expanded="true" signature="15169:15211" ph="select * fro... cctv" />
+                <marker date="1676091214860" expanded="true" signature="15445:15477" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="15445:15485" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="16122:16141" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="16122:16158" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="16122:16164" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="16354:16405" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="16354:16407" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="16354:16414" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="16354:16418" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="16354:16454" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="16652:16712" ph="insert into login... " />
+                <marker date="1676091214860" expanded="true" signature="16652:16719" ph="insert into login... " />
+                <marker date="1676091214860" expanded="true" signature="16652:16727" ph="insert into login... " />
+                <marker date="1676091214860" expanded="true" signature="16652:16759" ph="insert into login... " />
+                <marker date="1676091214860" expanded="true" signature="16793:16810" ph="insert into contr... " />
+                <marker date="1676091214860" expanded="true" signature="16793:16835" ph="insert into control_room_vehicle... " />
+                <marker date="1676091214860" expanded="true" signature="16793:16851" ph="insert into control_room_vehicle... " />
+                <marker date="1676091214860" expanded="true" signature="16793:16859" ph="insert into control_room_vehicle... " />
+                <marker date="1676091214860" expanded="true" signature="16793:16868" ph="insert into control_room_vehicle... " />
+                <marker date="1676091214860" expanded="true" signature="16793:16876" ph="insert into control_room_vehicle... " />
+                <marker date="1676091214860" expanded="true" signature="16793:16912" ph="insert into control_room_vehicle... " />
+                <marker date="1676091214860" expanded="true" signature="16793:16914" ph="insert into control_room_vehicle... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18239" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18242" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18251" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18258" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18267" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18269" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18277" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18285" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18292" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18315" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18324" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18325" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18207:18333" ph="update contr... " />
+                <marker date="1676091214860" expanded="true" signature="18502:18567" ph="select * fro... control" />
+                <marker date="1676091214860" expanded="true" signature="18806:18882" ph="select * fro... cctv" />
+                <marker date="1676091214860" expanded="true" signature="18806:18884" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="19044:19096" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="19044:19120" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="19363:19426" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="20367:20395" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20367:20403" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20367:20404" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20367:20410" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20367:20430" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20367:20433" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20367:20434" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20367:20508" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20367:20515" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20367:20520" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20367:20544" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="20727:20761" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20769" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20777" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20785" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20793" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20802" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20811" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20820" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20833" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20842" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20867" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20727:20869" ph="insert into criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20897:20972" ph="insert into most_wanted_criminal... " />
+                <marker date="1676091214860" expanded="true" signature="20897:20996" ph="insert into most_wanted_criminal... " />
+                <marker date="1676091214860" expanded="true" signature="21339:21420" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="21581:21595" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="21581:21603" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="21581:21709" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="21581:21733" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="21978:22030" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="21978:22057" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="21978:22071" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="21978:22077" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="21978:22079" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="21978:22081" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23107" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23113" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23119" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23125" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23126" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23134" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23140" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23148" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23154" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23161" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23168" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23169" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23174" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23181" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23188" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23192" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23199" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23201" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23207" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23218" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23225" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23229" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23236" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23256" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23081:23264" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23459:23606" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23459:23623" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23459:23651" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23459:23653" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23834:24002" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="23834:24030" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="24204:24258" ph="select * fro... cctv" />
+                <marker date="1676091214860" expanded="true" signature="24505:24553" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="25562:25596" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="25562:25847" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="25562:25850" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="25562:25859" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="26043:26085" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26093" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26101" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26109" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26117" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26126" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26135" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26148" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26156" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26165" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26191" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26200" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26043:26217" ph="insert into missing_person... " />
+                <marker date="1676091214860" expanded="true" signature="26591:26661" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="26823:26851" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="26823:26893" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="28025:28057" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28063" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28068" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28069" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28075" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28084" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28090" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28091" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28096" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28098" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28104" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28112" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28119" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28126" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28127" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28143" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28150" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28157" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28158" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28169" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28178" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28184" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28191" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28193" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28200" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28206" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28217" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28224" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28237" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28243" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28262" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28025:28270" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28478:28627" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28478:28744" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:28970" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:28976" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:28982" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:28988" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:28997" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29003" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29011" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29017" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29018" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29026" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29032" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29039" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29056" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29063" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29072" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29087" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29094" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29095" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29100" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29111" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29118" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29131" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29137" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="28938:29164" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="29349:29367" ph="select * fro... miss" />
+                <marker date="1676091214860" expanded="true" signature="29349:29377" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="29349:29396" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="29349:29404" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="29669:29688" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="29669:29714" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="29669:29722" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="30088:30104" ph="insert into most... " />
+                <marker date="1676091214860" expanded="true" signature="30088:30111" ph="insert into most_wanted... " />
+                <marker date="1676091214860" expanded="true" signature="30088:30135" ph="insert into most_wanted_criminal... " />
+                <marker date="1676091214860" expanded="true" signature="30088:30144" ph="insert into most_wanted_criminal... " />
+                <marker date="1676091214860" expanded="true" signature="30088:30153" ph="insert into most_wanted_criminal... " />
+                <marker date="1676091214860" expanded="true" signature="30088:30155" ph="insert into most_wanted_criminal... " />
+                <marker date="1676091214860" expanded="true" signature="30324:30364" ph="select 8 fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="30324:30388" ph="select 8 fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="30650:30664" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="30650:30802" ph="select * fro... most_wanted_criminal" />
+                <marker date="1676091214860" expanded="true" signature="30650:30804" ph="select * fro... most_wanted_criminal" />
+                <marker date="1676091214860" expanded="true" signature="30964:31043" ph="select * fro... most_wanted_criminal" />
+                <marker date="1676091214860" expanded="true" signature="30964:31116" ph="select * fro... most_wanted" />
+                <marker date="1676091214860" expanded="true" signature="31521:31562" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="31521:31566" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="31521:31573" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="31521:31582" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="31521:31588" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="31521:31595" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="31521:31604" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="31521:31612" ph="update most_... " />
+                <marker date="1676091214860" expanded="true" signature="31788:31846" ph="select * fro... m" />
+                <marker date="1676091214860" expanded="true" signature="31877:31917" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="31877:31941" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="32208:32264" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="32989:33029" ph="insert into crime_record... " />
+                <marker date="1676091214860" expanded="true" signature="32989:33039" ph="insert into crime_record... " />
+                <marker date="1676091214860" expanded="true" signature="32989:33051" ph="insert into crime_record... " />
+                <marker date="1676091214860" expanded="true" signature="32989:33062" ph="insert into crime_record... " />
+                <marker date="1676091214860" expanded="true" signature="32989:33071" ph="insert into crime_record... " />
+                <marker date="1676091214860" expanded="true" signature="33235:33263" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="33505:33621" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="33505:33643" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="33805:33867" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="33805:33935" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="33805:33943" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="34674:34748" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="34674:34766" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="34674:34774" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="34969:35021" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="34969:35036" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="34969:35044" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="35225:35274" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="35225:35277" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="35225:35285" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="35225:35292" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="35225:35300" ph="update crime... " />
+                <marker date="1676091214860" expanded="true" signature="35515:35567" ph="select * fro... crime_record" />
+                <marker date="1676091214860" expanded="true" signature="35599:35627" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="35880:35930" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="36240:36260" ph="select * fro... track_" />
+                <marker date="1676091214860" expanded="true" signature="36240:36279" ph="select * fro... track_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="36240:36299" ph="select * fro... track_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="36240:36308" ph="select * fro... track_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="36240:36309" ph="select * fro... track_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="36557:36697" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="36695:36697" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="36859:36875" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="36859:37112" ph="select crimi... criminal" />
+                <marker date="1676091214860" expanded="true" signature="36859:37347" ph="select crimi... " />
+                <marker date="1676091214860" expanded="true" signature="36859:37374" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="37119:37347" ph="select crimi... criminal" />
+                <marker date="1676091214860" expanded="true" signature="37628:37796" ph="select * fro... missing_person_alert" />
+                <marker date="1676091214860" expanded="true" signature="37958:38257" ph="select missi... missing_person_alert" />
+                <marker date="1676091214860" expanded="true" signature="37958:38565" ph="select * fro... missing_person_alert" />
+                <marker date="1676091214860" expanded="true" signature="38265:38563" ph="select missi... missing_person_alert" />
+                <marker date="1676091214860" expanded="true" signature="38806:38868" ph="select * fro... police" />
+                <marker date="1676091214860" expanded="true" signature="38866:38868" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="39033:39095" ph="select * fro... police" />
+                <marker date="1676091214860" expanded="true" signature="39680:39750" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="39873:39909" ph="select * fro... user" />
+                <marker date="1676091214860" expanded="true" signature="39873:39920" ph="select * fro... user" />
+                <marker date="1676091214860" expanded="true" signature="41428:41457" ph="select * fro... control_room_ve" />
+                <marker date="1676091214860" expanded="true" signature="41428:41462" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="41428:41481" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="41428:41489" ph="select * fro... control_room_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="42157:42233" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="42157:42285" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="42157:42297" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="42157:42313" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="42157:42344" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="42157:42351" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="42157:42376" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="42157:42387" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="42647:42683" ph="update emerg... " />
+                <marker date="1676091214860" expanded="true" signature="42647:42689" ph="update emerg... " />
+                <marker date="1676091214860" expanded="true" signature="42647:42700" ph="update emerg... " />
+                <marker date="1676091214860" expanded="true" signature="42647:42716" ph="update emerg... " />
+                <marker date="1676091214860" expanded="true" signature="42647:42724" ph="update emerg... " />
+                <marker date="1676091214860" expanded="true" signature="43655:43680" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="43655:43691" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="43655:43697" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="43800:43854" ph="insert into login... " />
+                <marker date="1676091214860" expanded="true" signature="43800:43878" ph="insert into login... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44002" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44003" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44026" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44034" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44042" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44051" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44059" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44068" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44076" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44085" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="43900:44097" ph="insert into user... " />
+                <marker date="1676091214860" expanded="true" signature="44136:51799" ph="select * fro... registration" />
+                <marker date="1676091214860" expanded="true" signature="44271:44306" ph="select * fro... emergency_alert" />
+                <marker date="1676091214860" expanded="true" signature="44271:44307" ph="select * fro... user" />
+                <marker date="1676091214860" expanded="true" signature="44271:44314" ph="select * fro... user" />
+                <marker date="1676091214860" expanded="true" signature="44588:44670" ph="insert into complaint... " />
+                <marker date="1676091214860" expanded="true" signature="44588:44677" ph="insert into complaint... " />
+                <marker date="1676091214860" expanded="true" signature="44588:44708" ph="insert into complaint... " />
+                <marker date="1676091214860" expanded="true" signature="44588:44716" ph="insert into complaint... " />
+                <marker date="1676091214860" expanded="true" signature="44882:44917" ph="select * fro... complaint" />
+                <marker date="1676091214860" expanded="true" signature="44882:44921" ph="select * fro... complaint" />
+                <marker date="1676091214860" expanded="true" signature="44882:44928" ph="select * fro... complaint" />
+                <marker date="1676091214860" expanded="true" signature="45214:45301" ph="insert into complaint... " />
+                <marker date="1676091214860" expanded="true" signature="45463:45494" ph="select * fro... complaint" />
+                <marker date="1676091214860" expanded="true" signature="45728:45740" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="45728:45745" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="45728:45770" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="45728:45778" ph="delete from " />
+                <marker date="1676091214860" expanded="true" signature="45933:46028" ph="select * fro... emergency_contact" />
+                <marker date="1676091214860" expanded="true" signature="45933:46059" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="45933:46081" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="45933:46097" ph="select * fro... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="45933:46117" ph="select missi... missing_person" />
+                <marker date="1676091214860" expanded="true" signature="46406:46483" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="46406:46552" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="46406:46564" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="46406:46579" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="46406:46586" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="46406:46591" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="46406:46599" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="46834:46862" ph="select * fro... crime_category" />
+                <marker date="1676091214860" expanded="true" signature="47095:47253" ph="select * fro... criminal" />
+                <marker date="1676091214860" expanded="true" signature="47095:47278" ph="select crimi... criminal" />
+                <marker date="1676091214860" expanded="true" signature="47095:47284" ph="select crimi... criminal" />
+                <marker date="1676091214860" expanded="true" signature="47095:47299" ph="select crimi... criminal" />
+                <marker date="1676091214860" expanded="true" signature="47541:47673" ph="select crimi... criminal" />
+                <marker date="1676091214860" expanded="true" signature="47541:47682" ph="select crimi... criminal" />
+                <marker date="1676091214860" expanded="true" signature="48063:48130" ph="select * fro... missing_person_alert" />
+                <marker date="1676091214860" expanded="true" signature="48063:48135" ph="select * fro... missing_person_alert" />
+                <marker date="1676091214860" expanded="true" signature="48063:48141" ph="select * fro... missing_person_alert" />
+                <marker date="1676091214860" expanded="true" signature="48063:48166" ph="select * fro... missing_person_alert" />
+                <marker date="1676091214860" expanded="true" signature="48063:48178" ph="select * fro... missing_person_alert" />
+                <marker date="1676091214860" expanded="true" signature="48253:48343" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="48253:48356" ph="update missi... " />
+                <marker date="1676091214860" expanded="true" signature="48427:48543" ph="insert into missing_person_alert... " />
+                <marker date="1676091214860" expanded="true" signature="48427:48545" ph="insert into missing_person_alert... " />
+                <marker date="1676091214860" expanded="true" signature="48427:48564" ph="insert into missing_person_alert... " />
+                <marker date="1676091214860" expanded="true" signature="48427:48575" ph="insert into missing_person_alert... " />
+                <marker date="1676091214860" expanded="true" signature="48427:48593" ph="insert into feedback... " />
+                <marker date="1676091214860" expanded="true" signature="48427:48595" ph="insert into missing_person_alert... " />
+                <marker date="1676091214860" expanded="true" signature="48869:48922" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="48869:48952" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="48869:48957" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="48869:48979" ph="select * fro... criminal_alert" />
+                <marker date="1676091214860" expanded="true" signature="49062:49087" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="49062:49107" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="49062:49108" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="49062:49154" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="49062:49155" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="49062:49168" ph="update crimi... " />
+                <marker date="1676091214860" expanded="true" signature="49238:49385" ph="insert into criminal_alert... " />
+                <marker date="1676091214860" expanded="true" signature="49238:49403" ph="insert into missing_person_alert... " />
+                <marker date="1676091214860" expanded="true" signature="49672:49691" ph="select * fro... track" />
+                <marker date="1676091214860" expanded="true" signature="49672:49726" ph="select * fro... track_vehicle" />
+                <marker date="1676091214860" expanded="true" signature="49772:49837" ph="update track... " />
+                <marker date="1676091214860" expanded="true" signature="49772:49840" ph="update track... " />
+                <marker date="1676091214860" expanded="true" signature="49772:49851" ph="update track... " />
+                <marker date="1676091214860" expanded="true" signature="49772:49861" ph="update track... " />
+                <marker date="1676091214860" expanded="true" signature="49772:49867" ph="update track... " />
+                <marker date="1676091214860" expanded="true" signature="49772:49880" ph="update track... " />
+                <marker date="1676091214860" expanded="true" signature="49772:49888" ph="update track... " />
+                <marker date="1676091214860" expanded="true" signature="49772:49889" ph="update track... " />
+                <marker date="1676091214860" expanded="true" signature="49772:49891" ph="update track... " />
+                <marker date="1676091214860" expanded="true" signature="49957:50078" ph="insert into track_vehicle... " />
+                <marker date="1676091214860" expanded="true" signature="50326:50419" ph="select * fro... emergency_alert" />
+                <marker date="1676091214860" expanded="true" signature="50521:50664" ph="insert into emergency_alert... " />
+                <marker date="1676091214860" expanded="true" signature="50842:50884" ph="select * fro... login" />
+                <marker date="1676091214860" expanded="true" signature="50842:50904" ph="select * fro... login" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="police_home_index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/POLICE/police_home_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2431">
+              <caret line="143" column="89" lean-forward="false" selection-start-line="143" selection-start-column="89" selection-end-line="143" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add_most_wanted</find>
+      <find>update_control</find>
+      <find>/adminhome</find>
+      <find>/add_control</find>
+      <find>/view_police_missing_person</find>
+      <find>view_control</find>
+      <find>track_vehicle</find>
+      <find>login</find>
+      <find>password</find>
+      <find>head</find>
+      <find>your si</find>
+      <find>block</find>
+      <find>police</find>
+      <find>add_category</find>
+      <find>types</find>
+      <find>pv@</find>
+      <find>add_emergency_contact</find>
+      <find>view_criminal</find>
+      <find>VIEW_MOST_WANTED</find>
+      <find>view_complaint</find>
+      <find>view_missing_alert</find>
+      <find>add_control</find>
+      <find>vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv</find>
+      <find>and</find>
+      <find>view_criminal_alert</find>
+      <find>view_criminal_alert1</find>
+      <find>and_login</find>
+      <find>add_criminal</find>
+      <find>most</find>
+      <find>control</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/ADMIN/adminhome.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/policehome.html" />
+        <option value="$PROJECT_DIR$/DBConnection.py" />
+        <option value="$PROJECT_DIR$/templates/login_index.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/view_category.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/add_category.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/add_cctv.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/update_category.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/VIEW_FEEDBACK.HTML" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/view_missing_person.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/add_record.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/add_most_wanted.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/add_missing_person.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/add_criminal.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/update_record.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/update_most_wanted.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/update_missing_person.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/update_criminal.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/VIEW_MOST_WANTED.HTML" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/view_complaint.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/add_emergency_contact.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/reply.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/track_vehicle.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/view_police_missing_person.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/view_police_most_wanted.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/view_profile.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/view_record.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/update_police.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/update_cctv.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/view_cctv.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/view_criminal.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/VIEW_POLICE.HTML" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/admin_home_index.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/view_criminal_alert.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/view_criminal_alert.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/view_missing_alert.html" />
+        <option value="$PROJECT_DIR$/templates/ADMIN/police.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/update_control.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/view_control.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/add_control.html" />
+        <option value="$PROJECT_DIR$/templates/POLICE/police_home_index.html" />
+        <option value="$PROJECT_DIR$/camera.py" />
+        <option value="$PROJECT_DIR$/PEOPLE'S_VOICE.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="718" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="POLICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ADMIN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PEOPLE'S_VOICE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="temp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="add_control&#9;FILE&#9;file://C:/Users/Octa/PycharmProjects/PEOPLE'S_VOICE/templates/POLICE/add_control.html&#10;update_criminal&#9;FILE&#9;file://C:/Users/Octa/PycharmProjects/PEOPLE'S_VOICE/templates/POLICE/update_criminal.html&#10;view_complaint&#9;FILE&#9;file://C:/Users/Octa/PycharmProjects/PEOPLE'S_VOICE/templates/ADMIN/view_complaint.html&#10;VIEW_POLICE&#9;FILE&#9;file://C:/Users/Octa/PycharmProjects/PEOPLE'S_VOICE/templates/ADMIN/VIEW_POLICE.HTML" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Octa\PycharmProjects\PEOPLE'S_VOICE" />
+      <recent name="C:\Users\Octa\PycharmProjects\PEOPLE'S_VOICE\templates\POLICE" />
+      <recent name="C:\Users\Octa\PycharmProjects\PEOPLE'S_VOICE\templates\ADMIN" />
+      <recent name="C:\Users\Octa\PycharmProjects\PEOPLE'S_VOICE\templates" />
+      <recent name="C:\Users\Octa\PycharmProjects\PEOPLE'S_VOICE\static\temp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.PEOPLE'S_VOICE">
+    <configuration default="false" name="camera" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PEOPLE'S_VOICE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/camera.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PEOPLE'S_VOICE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PEOPLE'S_VOICE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PEOPLE'S_VOICE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PEOPLE'S_VOICE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="PEOPLE'S_VOICE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PEOPLE'S_VOICE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PEOPLE'S_VOICE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PEOPLE'S_VOICE" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PEOPLE'S_VOICE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEOPLE'S_VOICE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.PEOPLE'S_VOICE" />
+      <item index="1" class="java.lang.String" itemvalue="Python.camera" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.camera" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ced5a92-4b45-44c3-b018-9943286f857c" name="Default" comment="" />
+      <created>1668238719160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668238719160</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1364" height="718" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23813057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31629393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256579" sideWeight="0.14762612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3256579" sideWeight="0.8523739" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33996683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23003195" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PEOPLE'S_VOICE.py</url>
+          <line>73</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PEOPLE'S_VOICE.py</url>
+          <line>701</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PEOPLE'S_VOICE.py</url>
+          <line>884</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PEOPLE'S_VOICE.py</url>
+          <line>355</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PEOPLE'S_VOICE.py</url>
+          <line>910</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PEOPLE'S_VOICE.py</url>
+          <line>515</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PEOPLE'S_VOICE.py</url>
+          <line>544</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PEOPLE'S_VOICE.py</url>
+          <line>564</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/camera.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="jinja2-line">
+          <url>file://$PROJECT_DIR$/templates/POLICE/update_criminal.html</url>
+          <line>76</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="22" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/temp/scss/bootstrap/scss/forms/_labels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/mysql/connector/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="392" column="0" lean-forward="false" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/adminhome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="1795" column="0" lean-forward="false" selection-start-line="1795" selection-start-column="0" selection-end-line="1795" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/pic/h3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="745" column="94" lean-forward="false" selection-start-line="745" selection-start-column="94" selection-end-line="745" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/add_cctv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="181" column="14" lean-forward="true" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/add_emergency_contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/reply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/update_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/view_complaint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/VIEW_FEEDBACK.HTML">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/view_missing_person.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/VIEW_MOST_WANTED.HTML">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/view_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/add_missing_person.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/add_most_wanted.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/update_missing_person.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="98" column="7" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/update_most_wanted.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/policehome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/track_vehicle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/view_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/view_police_most_wanted.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/update_cctv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="115" column="19" lean-forward="false" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/add_record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/update_record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/view_cctv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/view_record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/admin_home_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="162" column="22" lean-forward="true" selection-start-line="162" selection-start-column="22" selection-end-line="162" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/view_police_missing_person.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="65" lean-forward="false" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/view_criminal_alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/view_criminal_alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/view_missing_alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24378">
+          <caret line="1501" column="0" lean-forward="false" selection-start-line="1501" selection-start-column="0" selection-end-line="1501" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/view_control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="68" lean-forward="false" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/update_control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/add_control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="76" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/add_criminal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/update_police.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/police.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/VIEW_POLICE.HTML">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/view_criminal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/a_270.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/update_criminal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/POLICE/police_home_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="143" column="89" lean-forward="false" selection-start-line="143" selection-start-column="89" selection-end-line="143" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/a.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="178" column="40" lean-forward="false" selection-start-line="178" selection-start-column="40" selection-end-line="178" selection-end-column="40" />
+          <folding>
+            <element signature="e#36#46#0" expanded="true" />
+            <element signature="e#5196#6548#0" expanded="false" />
+            <marker date="1675693579150" expanded="true" signature="478:496" ph="select * fro... cctv" />
+            <marker date="1675693579150" expanded="true" signature="1062:1178" ph="select * fro... criminal" />
+            <marker date="1675693579150" expanded="true" signature="1344:1448" ph="select * fro... criminal_alert" />
+            <marker date="1675693579150" expanded="true" signature="1483:1566" ph="select * fro... criminal_alert" />
+            <marker date="1675693579150" expanded="true" signature="1483:1582" ph="select * fro... criminal_alert" />
+            <marker date="1675693579150" expanded="true" signature="1483:1583" ph="select * fro... criminal_alert" />
+            <marker date="1675693579150" expanded="true" signature="1847:1937" ph="insert into `criminal_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="1968:2110" ph="insert into `criminal_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="1968:2125" ph="insert into `criminal_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="1968:2147" ph="insert into `criminal_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="1968:2148" ph="insert into `criminal_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="2185:2219" ph="select * fro... cctv" />
+            <marker date="1675693579150" expanded="true" signature="3305:3341" ph="update crimi... " />
+            <marker date="1675693579150" expanded="true" signature="3305:3354" ph="update crimi... " />
+            <marker date="1675693579150" expanded="true" signature="3305:3366" ph="update crimi... " />
+            <marker date="1675693579150" expanded="true" signature="3305:3380" ph="update crimi... " />
+            <marker date="1675693579150" expanded="true" signature="3305:3400" ph="update crimi... " />
+            <marker date="1675693579150" expanded="true" signature="3305:3411" ph="update crimi... " />
+            <marker date="1675693579150" expanded="true" signature="3305:3427" ph="update crimi... " />
+            <marker date="1675693579150" expanded="true" signature="3305:3428" ph="update crimi... " />
+            <marker date="1675693579150" expanded="true" signature="3305:3430" ph="update crimi... " />
+            <marker date="1675693579150" expanded="true" signature="3823:3857" ph="select * fro... cctv" />
+            <marker date="1675693579150" expanded="true" signature="4478:4611" ph="select * fro... missing_person" />
+            <marker date="1675693579150" expanded="true" signature="4747:4860" ph="select * fro... missing_person_alert" />
+            <marker date="1675693579150" expanded="true" signature="4895:4987" ph="select * fro... missing_person_alert" />
+            <marker date="1675693579150" expanded="true" signature="4895:4991" ph="select * fro... missing_person_alert" />
+            <marker date="1675693579150" expanded="true" signature="4895:4997" ph="select * fro... missing_person_alert" />
+            <marker date="1675693579150" expanded="true" signature="4895:5010" ph="select * fro... missing_person_alert" />
+            <marker date="1675693579150" expanded="true" signature="4895:5017" ph="select * fro... missing_person_alert" />
+            <marker date="1675693579150" expanded="true" signature="4895:5026" ph="select * fro... missing_person_alert" />
+            <marker date="1675693579150" expanded="true" signature="4895:5040" ph="select * fro... missing_person_alert" />
+            <marker date="1675693579150" expanded="true" signature="4895:5056" ph="select * fro... missing_person_alert" />
+            <marker date="1675693579150" expanded="true" signature="5321:5417" ph="insert into `missing_person_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="5448:5569" ph="insert into `missing_person_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="5448:5570" ph="insert into `missing_person_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="5448:5595" ph="insert into `missing_person_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="5448:5610" ph="insert into `missing_person_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="5448:5632" ph="insert into `missing_person_alert`... " />
+            <marker date="1675693579150" expanded="true" signature="5984:6018" ph="select * fro... cctv" />
+            <marker date="1675693579150" expanded="true" signature="6594:6687" ph="update missi... " />
+            <marker date="1675693579150" expanded="true" signature="7284:7318" ph="select * fro... cctv" />
+            <marker date="1675693579150" expanded="true" signature="8410:8432" ph="select * fro... criminal" />
+            <marker date="1675693579150" expanded="true" signature="10410:10438" ph="select * fro... missing_person" />
+            <marker date="1675693579150" expanded="true" signature="12482:12510" ph="select * fro... missing_person" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ADMIN/add_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PEOPLE'S_VOICE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="1236" column="83" lean-forward="false" selection-start-line="1236" selection-start-column="83" selection-end-line="1236" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1676091214860" expanded="true" signature="507:543" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="507:549" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="507:563" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="507:569" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="507:571" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="1733:1774" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="1733:1780" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="1733:1786" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="1733:1790" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="1733:1796" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="1733:1804" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="1733:1810" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="1991:2036" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="1991:2038" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="1991:2044" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="2238:2315" ph="insert into crime_category... " />
+            <marker date="1676091214860" expanded="true" signature="2238:2323" ph="insert into crime_category... " />
+            <marker date="1676091214860" expanded="true" signature="2238:2330" ph="insert into crime_category... " />
+            <marker date="1676091214860" expanded="true" signature="2238:2332" ph="insert into crime_category... " />
+            <marker date="1676091214860" expanded="true" signature="2674:2702" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="2863:2891" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="3277:3315" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="3277:3321" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="3277:3340" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="3277:3360" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="3277:3368" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="3277:3369" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="3277:3370" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="3538:3586" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="3538:3594" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="3538:3596" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="3840:3886" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="3840:3894" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="3840:3896" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="4271:4315" ph="select * fro... emergency_contact" />
+            <marker date="1676091214860" expanded="true" signature="4271:4323" ph="select * fro... emergency_contact" />
+            <marker date="1676091214860" expanded="true" signature="4271:4337" ph="select * fro... emergency_contact" />
+            <marker date="1676091214860" expanded="true" signature="4271:4345" ph="select * fro... emergency_contact" />
+            <marker date="1676091214860" expanded="true" signature="4532:4614" ph="insert into emergency_contact... " />
+            <marker date="1676091214860" expanded="true" signature="5351:5376" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="5351:5385" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="5351:5387" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="5351:5393" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="5577:5679" ph="insert into login... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5812" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5826" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5827" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5833" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5835" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5841" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5843" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5850" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5852" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5858" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5860" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5867" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5869" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5877" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5879" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5887" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="5709:5888" ph="insert into police... " />
+            <marker date="1676091214860" expanded="true" signature="6937:6957" ph="select * fro... police" />
+            <marker date="1676091214860" expanded="true" signature="7118:7138" ph="select * fro... police" />
+            <marker date="1676091214860" expanded="true" signature="7735:7768" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7774" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7782" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7788" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7796" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7803" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7814" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7820" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7833" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7840" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7851" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7859" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7871" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7879" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7896" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7904" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="7735:7906" ph="update polic... " />
+            <marker date="1676091214860" expanded="true" signature="8072:8103" ph="select * fro... police" />
+            <marker date="1676091214860" expanded="true" signature="8072:8110" ph="select * fro... police" />
+            <marker date="1676091214860" expanded="true" signature="8072:8118" ph="select * fro... police" />
+            <marker date="1676091214860" expanded="true" signature="8072:8120" ph="select * fro... police" />
+            <marker date="1676091214860" expanded="true" signature="8358:8400" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="8422:8466" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="8677:8742" ph="select * fro... complaint" />
+            <marker date="1676091214860" expanded="true" signature="8903:8968" ph="select * fro... complaint" />
+            <marker date="1676091214860" expanded="true" signature="9299:9327" ph="update compl... " />
+            <marker date="1676091214860" expanded="true" signature="9299:9333" ph="update compl... " />
+            <marker date="1676091214860" expanded="true" signature="9299:9334" ph="update compl... " />
+            <marker date="1676091214860" expanded="true" signature="9299:9345" ph="update compl... " />
+            <marker date="1676091214860" expanded="true" signature="9299:9354" ph="update compl... " />
+            <marker date="1676091214860" expanded="true" signature="9299:9375" ph="update compl... " />
+            <marker date="1676091214860" expanded="true" signature="9299:9383" ph="update compl... " />
+            <marker date="1676091214860" expanded="true" signature="9299:9385" ph="update compl... " />
+            <marker date="1676091214860" expanded="true" signature="9728:9866" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="10029:10266" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="10029:10286" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="10029:10297" ph="select crimi... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="10029:10298" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="10328:10344" ph="select crimi... criminal" />
+            <marker date="1676091214860" expanded="true" signature="10328:10560" ph="select crimi... criminal" />
+            <marker date="1676091214860" expanded="true" signature="10328:10801" ph="select crimi... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="10328:10804" ph="select crimi... " />
+            <marker date="1676091214860" expanded="true" signature="10567:10800" ph="select crimi... criminal" />
+            <marker date="1676091214860" expanded="true" signature="11047:11110" ph="select * fro... feedback" />
+            <marker date="1676091214860" expanded="true" signature="11271:11334" ph="select * fro... feedback" />
+            <marker date="1676091214860" expanded="true" signature="11586:11669" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="11830:11897" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="11830:11913" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="12173:12206" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="12173:12232" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="12173:12240" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="12173:12242" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="12506:12569" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="12506:12577" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="12506:12579" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="12832:12935" ph="select * fro... most_wanted_criminal" />
+            <marker date="1676091214860" expanded="true" signature="13097:13152" ph="select * fro... most_wanted_criminal" />
+            <marker date="1676091214860" expanded="true" signature="13097:13200" ph="select * fro... most_wanted_criminal" />
+            <marker date="1676091214860" expanded="true" signature="13705:13789" ph="insert into cctv... " />
+            <marker date="1676091214860" expanded="true" signature="13705:13799" ph="insert into cctv... " />
+            <marker date="1676091214860" expanded="true" signature="13705:13809" ph="insert into cctv... " />
+            <marker date="1676091214860" expanded="true" signature="13705:13819" ph="insert into cctv... " />
+            <marker date="1676091214860" expanded="true" signature="13705:13829" ph="insert into cctv... " />
+            <marker date="1676091214860" expanded="true" signature="13705:13838" ph="insert into cctv... " />
+            <marker date="1676091214860" expanded="true" signature="13705:13840" ph="insert into cctv... " />
+            <marker date="1676091214860" expanded="true" signature="14164:14182" ph="select * fro... cctv" />
+            <marker date="1676091214860" expanded="true" signature="14343:14361" ph="select * fro... cctv" />
+            <marker date="1676091214860" expanded="true" signature="14873:14900" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:14908" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:14917" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:14925" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:14936" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:14944" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:14955" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:14963" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:14975" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:14983" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:14998" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="14873:15006" ph="update cctv " />
+            <marker date="1676091214860" expanded="true" signature="15169:15203" ph="select * fro... cctv" />
+            <marker date="1676091214860" expanded="true" signature="15169:15211" ph="select * fro... cctv" />
+            <marker date="1676091214860" expanded="true" signature="15445:15477" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="15445:15485" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="16122:16141" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="16122:16158" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="16122:16164" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="16354:16405" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="16354:16407" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="16354:16414" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="16354:16418" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="16354:16454" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="16652:16712" ph="insert into login... " />
+            <marker date="1676091214860" expanded="true" signature="16652:16719" ph="insert into login... " />
+            <marker date="1676091214860" expanded="true" signature="16652:16727" ph="insert into login... " />
+            <marker date="1676091214860" expanded="true" signature="16652:16759" ph="insert into login... " />
+            <marker date="1676091214860" expanded="true" signature="16793:16810" ph="insert into contr... " />
+            <marker date="1676091214860" expanded="true" signature="16793:16835" ph="insert into control_room_vehicle... " />
+            <marker date="1676091214860" expanded="true" signature="16793:16851" ph="insert into control_room_vehicle... " />
+            <marker date="1676091214860" expanded="true" signature="16793:16859" ph="insert into control_room_vehicle... " />
+            <marker date="1676091214860" expanded="true" signature="16793:16868" ph="insert into control_room_vehicle... " />
+            <marker date="1676091214860" expanded="true" signature="16793:16876" ph="insert into control_room_vehicle... " />
+            <marker date="1676091214860" expanded="true" signature="16793:16912" ph="insert into control_room_vehicle... " />
+            <marker date="1676091214860" expanded="true" signature="16793:16914" ph="insert into control_room_vehicle... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18239" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18242" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18251" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18258" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18267" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18269" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18277" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18285" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18292" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18315" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18324" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18325" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18207:18333" ph="update contr... " />
+            <marker date="1676091214860" expanded="true" signature="18502:18567" ph="select * fro... control" />
+            <marker date="1676091214860" expanded="true" signature="18806:18882" ph="select * fro... cctv" />
+            <marker date="1676091214860" expanded="true" signature="18806:18884" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="19044:19096" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="19044:19120" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="19363:19426" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="20367:20395" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20367:20403" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20367:20404" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20367:20410" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20367:20430" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20367:20433" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20367:20434" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20367:20508" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20367:20515" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20367:20520" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20367:20544" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="20727:20761" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20769" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20777" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20785" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20793" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20802" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20811" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20820" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20833" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20842" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20867" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20727:20869" ph="insert into criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20897:20972" ph="insert into most_wanted_criminal... " />
+            <marker date="1676091214860" expanded="true" signature="20897:20996" ph="insert into most_wanted_criminal... " />
+            <marker date="1676091214860" expanded="true" signature="21339:21420" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="21581:21595" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="21581:21603" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="21581:21709" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="21581:21733" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="21978:22030" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="21978:22057" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="21978:22071" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="21978:22077" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="21978:22079" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="21978:22081" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23107" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23113" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23119" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23125" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23126" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23134" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23140" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23148" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23154" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23161" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23168" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23169" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23174" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23181" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23188" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23192" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23199" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23201" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23207" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23218" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23225" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23229" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23236" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23256" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23081:23264" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23459:23606" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23459:23623" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23459:23651" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23459:23653" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23834:24002" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="23834:24030" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="24204:24258" ph="select * fro... cctv" />
+            <marker date="1676091214860" expanded="true" signature="24505:24553" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="25562:25596" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="25562:25847" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="25562:25850" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="25562:25859" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="26043:26085" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26093" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26101" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26109" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26117" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26126" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26135" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26148" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26156" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26165" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26191" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26200" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26043:26217" ph="insert into missing_person... " />
+            <marker date="1676091214860" expanded="true" signature="26591:26661" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="26823:26851" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="26823:26893" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="28025:28057" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28063" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28068" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28069" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28075" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28084" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28090" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28091" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28096" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28098" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28104" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28112" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28119" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28126" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28127" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28143" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28150" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28157" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28158" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28169" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28178" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28184" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28191" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28193" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28200" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28206" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28217" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28224" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28237" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28243" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28262" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28025:28270" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28478:28627" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28478:28744" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:28970" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:28976" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:28982" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:28988" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:28997" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29003" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29011" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29017" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29018" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29026" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29032" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29039" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29056" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29063" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29072" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29087" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29094" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29095" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29100" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29111" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29118" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29131" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29137" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="28938:29164" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="29349:29367" ph="select * fro... miss" />
+            <marker date="1676091214860" expanded="true" signature="29349:29377" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="29349:29396" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="29349:29404" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="29669:29688" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="29669:29714" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="29669:29722" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="30088:30104" ph="insert into most... " />
+            <marker date="1676091214860" expanded="true" signature="30088:30111" ph="insert into most_wanted... " />
+            <marker date="1676091214860" expanded="true" signature="30088:30135" ph="insert into most_wanted_criminal... " />
+            <marker date="1676091214860" expanded="true" signature="30088:30144" ph="insert into most_wanted_criminal... " />
+            <marker date="1676091214860" expanded="true" signature="30088:30153" ph="insert into most_wanted_criminal... " />
+            <marker date="1676091214860" expanded="true" signature="30088:30155" ph="insert into most_wanted_criminal... " />
+            <marker date="1676091214860" expanded="true" signature="30324:30364" ph="select 8 fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="30324:30388" ph="select 8 fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="30650:30664" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="30650:30802" ph="select * fro... most_wanted_criminal" />
+            <marker date="1676091214860" expanded="true" signature="30650:30804" ph="select * fro... most_wanted_criminal" />
+            <marker date="1676091214860" expanded="true" signature="30964:31043" ph="select * fro... most_wanted_criminal" />
+            <marker date="1676091214860" expanded="true" signature="30964:31116" ph="select * fro... most_wanted" />
+            <marker date="1676091214860" expanded="true" signature="31521:31562" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="31521:31566" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="31521:31573" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="31521:31582" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="31521:31588" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="31521:31595" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="31521:31604" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="31521:31612" ph="update most_... " />
+            <marker date="1676091214860" expanded="true" signature="31788:31846" ph="select * fro... m" />
+            <marker date="1676091214860" expanded="true" signature="31877:31917" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="31877:31941" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="32208:32264" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="32989:33029" ph="insert into crime_record... " />
+            <marker date="1676091214860" expanded="true" signature="32989:33039" ph="insert into crime_record... " />
+            <marker date="1676091214860" expanded="true" signature="32989:33051" ph="insert into crime_record... " />
+            <marker date="1676091214860" expanded="true" signature="32989:33062" ph="insert into crime_record... " />
+            <marker date="1676091214860" expanded="true" signature="32989:33071" ph="insert into crime_record... " />
+            <marker date="1676091214860" expanded="true" signature="33235:33263" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="33505:33621" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="33505:33643" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="33805:33867" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="33805:33935" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="33805:33943" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="34674:34748" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="34674:34766" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="34674:34774" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="34969:35021" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="34969:35036" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="34969:35044" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="35225:35274" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="35225:35277" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="35225:35285" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="35225:35292" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="35225:35300" ph="update crime... " />
+            <marker date="1676091214860" expanded="true" signature="35515:35567" ph="select * fro... crime_record" />
+            <marker date="1676091214860" expanded="true" signature="35599:35627" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="35880:35930" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="36240:36260" ph="select * fro... track_" />
+            <marker date="1676091214860" expanded="true" signature="36240:36279" ph="select * fro... track_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="36240:36299" ph="select * fro... track_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="36240:36308" ph="select * fro... track_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="36240:36309" ph="select * fro... track_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="36557:36697" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="36695:36697" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="36859:36875" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="36859:37112" ph="select crimi... criminal" />
+            <marker date="1676091214860" expanded="true" signature="36859:37347" ph="select crimi... " />
+            <marker date="1676091214860" expanded="true" signature="36859:37374" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="37119:37347" ph="select crimi... criminal" />
+            <marker date="1676091214860" expanded="true" signature="37628:37796" ph="select * fro... missing_person_alert" />
+            <marker date="1676091214860" expanded="true" signature="37958:38257" ph="select missi... missing_person_alert" />
+            <marker date="1676091214860" expanded="true" signature="37958:38565" ph="select * fro... missing_person_alert" />
+            <marker date="1676091214860" expanded="true" signature="38265:38563" ph="select missi... missing_person_alert" />
+            <marker date="1676091214860" expanded="true" signature="38806:38868" ph="select * fro... police" />
+            <marker date="1676091214860" expanded="true" signature="38866:38868" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="39033:39095" ph="select * fro... police" />
+            <marker date="1676091214860" expanded="true" signature="39680:39750" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="39873:39909" ph="select * fro... user" />
+            <marker date="1676091214860" expanded="true" signature="39873:39920" ph="select * fro... user" />
+            <marker date="1676091214860" expanded="true" signature="41428:41457" ph="select * fro... control_room_ve" />
+            <marker date="1676091214860" expanded="true" signature="41428:41462" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="41428:41481" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="41428:41489" ph="select * fro... control_room_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="42157:42233" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="42157:42285" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="42157:42297" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="42157:42313" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="42157:42344" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="42157:42351" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="42157:42376" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="42157:42387" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="42647:42683" ph="update emerg... " />
+            <marker date="1676091214860" expanded="true" signature="42647:42689" ph="update emerg... " />
+            <marker date="1676091214860" expanded="true" signature="42647:42700" ph="update emerg... " />
+            <marker date="1676091214860" expanded="true" signature="42647:42716" ph="update emerg... " />
+            <marker date="1676091214860" expanded="true" signature="42647:42724" ph="update emerg... " />
+            <marker date="1676091214860" expanded="true" signature="43655:43680" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="43655:43691" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="43655:43697" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="43800:43854" ph="insert into login... " />
+            <marker date="1676091214860" expanded="true" signature="43800:43878" ph="insert into login... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44002" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44003" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44026" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44034" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44042" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44051" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44059" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44068" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44076" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44085" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="43900:44097" ph="insert into user... " />
+            <marker date="1676091214860" expanded="true" signature="44136:51799" ph="select * fro... registration" />
+            <marker date="1676091214860" expanded="true" signature="44271:44306" ph="select * fro... emergency_alert" />
+            <marker date="1676091214860" expanded="true" signature="44271:44307" ph="select * fro... user" />
+            <marker date="1676091214860" expanded="true" signature="44271:44314" ph="select * fro... user" />
+            <marker date="1676091214860" expanded="true" signature="44588:44670" ph="insert into complaint... " />
+            <marker date="1676091214860" expanded="true" signature="44588:44677" ph="insert into complaint... " />
+            <marker date="1676091214860" expanded="true" signature="44588:44708" ph="insert into complaint... " />
+            <marker date="1676091214860" expanded="true" signature="44588:44716" ph="insert into complaint... " />
+            <marker date="1676091214860" expanded="true" signature="44882:44917" ph="select * fro... complaint" />
+            <marker date="1676091214860" expanded="true" signature="44882:44921" ph="select * fro... complaint" />
+            <marker date="1676091214860" expanded="true" signature="44882:44928" ph="select * fro... complaint" />
+            <marker date="1676091214860" expanded="true" signature="45214:45301" ph="insert into complaint... " />
+            <marker date="1676091214860" expanded="true" signature="45463:45494" ph="select * fro... complaint" />
+            <marker date="1676091214860" expanded="true" signature="45728:45740" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="45728:45745" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="45728:45770" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="45728:45778" ph="delete from " />
+            <marker date="1676091214860" expanded="true" signature="45933:46028" ph="select * fro... emergency_contact" />
+            <marker date="1676091214860" expanded="true" signature="45933:46059" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="45933:46081" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="45933:46097" ph="select * fro... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="45933:46117" ph="select missi... missing_person" />
+            <marker date="1676091214860" expanded="true" signature="46406:46483" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="46406:46552" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="46406:46564" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="46406:46579" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="46406:46586" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="46406:46591" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="46406:46599" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="46834:46862" ph="select * fro... crime_category" />
+            <marker date="1676091214860" expanded="true" signature="47095:47253" ph="select * fro... criminal" />
+            <marker date="1676091214860" expanded="true" signature="47095:47278" ph="select crimi... criminal" />
+            <marker date="1676091214860" expanded="true" signature="47095:47284" ph="select crimi... criminal" />
+            <marker date="1676091214860" expanded="true" signature="47095:47299" ph="select crimi... criminal" />
+            <marker date="1676091214860" expanded="true" signature="47541:47673" ph="select crimi... criminal" />
+            <marker date="1676091214860" expanded="true" signature="47541:47682" ph="select crimi... criminal" />
+            <marker date="1676091214860" expanded="true" signature="48063:48130" ph="select * fro... missing_person_alert" />
+            <marker date="1676091214860" expanded="true" signature="48063:48135" ph="select * fro... missing_person_alert" />
+            <marker date="1676091214860" expanded="true" signature="48063:48141" ph="select * fro... missing_person_alert" />
+            <marker date="1676091214860" expanded="true" signature="48063:48166" ph="select * fro... missing_person_alert" />
+            <marker date="1676091214860" expanded="true" signature="48063:48178" ph="select * fro... missing_person_alert" />
+            <marker date="1676091214860" expanded="true" signature="48253:48343" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="48253:48356" ph="update missi... " />
+            <marker date="1676091214860" expanded="true" signature="48427:48543" ph="insert into missing_person_alert... " />
+            <marker date="1676091214860" expanded="true" signature="48427:48545" ph="insert into missing_person_alert... " />
+            <marker date="1676091214860" expanded="true" signature="48427:48564" ph="insert into missing_person_alert... " />
+            <marker date="1676091214860" expanded="true" signature="48427:48575" ph="insert into missing_person_alert... " />
+            <marker date="1676091214860" expanded="true" signature="48427:48593" ph="insert into feedback... " />
+            <marker date="1676091214860" expanded="true" signature="48427:48595" ph="insert into missing_person_alert... " />
+            <marker date="1676091214860" expanded="true" signature="48869:48922" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="48869:48952" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="48869:48957" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="48869:48979" ph="select * fro... criminal_alert" />
+            <marker date="1676091214860" expanded="true" signature="49062:49087" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="49062:49107" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="49062:49108" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="49062:49154" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="49062:49155" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="49062:49168" ph="update crimi... " />
+            <marker date="1676091214860" expanded="true" signature="49238:49385" ph="insert into criminal_alert... " />
+            <marker date="1676091214860" expanded="true" signature="49238:49403" ph="insert into missing_person_alert... " />
+            <marker date="1676091214860" expanded="true" signature="49672:49691" ph="select * fro... track" />
+            <marker date="1676091214860" expanded="true" signature="49672:49726" ph="select * fro... track_vehicle" />
+            <marker date="1676091214860" expanded="true" signature="49772:49837" ph="update track... " />
+            <marker date="1676091214860" expanded="true" signature="49772:49840" ph="update track... " />
+            <marker date="1676091214860" expanded="true" signature="49772:49851" ph="update track... " />
+            <marker date="1676091214860" expanded="true" signature="49772:49861" ph="update track... " />
+            <marker date="1676091214860" expanded="true" signature="49772:49867" ph="update track... " />
+            <marker date="1676091214860" expanded="true" signature="49772:49880" ph="update track... " />
+            <marker date="1676091214860" expanded="true" signature="49772:49888" ph="update track... " />
+            <marker date="1676091214860" expanded="true" signature="49772:49889" ph="update track... " />
+            <marker date="1676091214860" expanded="true" signature="49772:49891" ph="update track... " />
+            <marker date="1676091214860" expanded="true" signature="49957:50078" ph="insert into track_vehicle... " />
+            <marker date="1676091214860" expanded="true" signature="50326:50419" ph="select * fro... emergency_alert" />
+            <marker date="1676091214860" expanded="true" signature="50521:50664" ph="insert into emergency_alert... " />
+            <marker date="1676091214860" expanded="true" signature="50842:50884" ph="select * fro... login" />
+            <marker date="1676091214860" expanded="true" signature="50842:50904" ph="select * fro... login" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

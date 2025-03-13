@@ -1,0 +1,39 @@
+{% extends "POLICE/police_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th,td{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<form action="" method="get">
+<table class="table table-bordered" style="background-color: black">
+                    <h1 class="display-5 mb-5">VIEW TRACK VEHICLE</h1>
+
+  <tr>
+    <th><h3>#</h3></th>
+    <th>Location</th>
+{#    <td>Latitude</td>#}
+{#    <td>Longitude</td>#}
+    <td>&nbsp;</td>
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>{{ i.location_name }}</td>
+      <td><p><a href="http://maps.google.com/?q={{ i.latitude }},{{ i.longitude }}"target="-blank" class="btn btn-secondary">Track</a></p></td>
+  </tr>
+    {% endfor %}
+</table>
+</form>
+</body>
+</html>
+{% endblock %}

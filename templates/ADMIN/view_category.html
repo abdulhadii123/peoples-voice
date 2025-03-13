@@ -1,0 +1,40 @@
+{% extends "ADMIN/admin_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th,td{
+            color: white;
+        }
+    </style>
+</head>
+
+<body><form action="" method="get">
+<table class="table table-bordered" style="background-color: black">
+                    <h1 class="display-5 mb-5">VIEW CRIME CATEGORY</h1>
+
+  <tr>
+    <th>#</th>
+    <th>CRIME CATEGORY</th>
+    <th>DESCRIPTION</th>
+    <th>&nbsp;</th>
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>{{ loop.index }}</td>
+    <td>{{ i.crime_type }}</td>
+    <td>{{ i.description }}</td>
+    <td><p><a href="/update_category/{{ i.category_id }}#f" class="btn btn-success">UPDATE</a></p>
+      <p><a href="/delete_category/{{ i.category_id }}#f"onclick="return confirm('Are you sure to delete?')" class="btn btn-danger">DELETE</a></p></td>
+  </tr>
+    {% endfor %}
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

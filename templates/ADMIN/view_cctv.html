@@ -1,0 +1,50 @@
+{% extends "ADMIN/admin_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th,td{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<form action="" method="get">
+<table class="table table-bordered" style="background-color: black">
+                    <h1 class="display-5 mb-5">VIEW CCTV </h1>
+
+  <tr>
+    <td><h3>#</h3></td>
+    <th>Camera no</th>
+    <th>pin</th>
+{#    <td>Location</td>#}
+{#    <td>Latitude</td>#}
+{#    <td>Longitude</td>#}
+    <td>&nbsp;</td>
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>&nbsp;{{ i.camera_no }}</td>
+    <td>&nbsp;{{ i.pin_no }}</td>
+{#    <td>&nbsp;</td>#}
+{#    <td>&nbsp;</td>#}
+{#    <td>&nbsp;</td>#}
+    <td><p><a href="/update_cctv/{{ i.cctv_id }}#f" class="btn btn-outline-success">UPDATE</a></p>
+      <p><a href="/delete_cctv/{{ i.cctv_id }}#f" onclick="return confirm('Are you sure to delete?')" class="btn btn-outline-danger">DELETE</a></p>
+        <p ><a href="http://maps.google.com/?q={{ i.latitude }},{{ i.longitude }}"target="-blank" class="btn btn-outline-secondary">LOCATE</a></td>
+
+
+  </tr>
+    {% endfor %}
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

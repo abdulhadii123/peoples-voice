@@ -1,0 +1,53 @@
+{% extends "POLICE/police_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<form action="" method="post" enctype="multipart/form-data" >
+<table class="table table-bordered" style="background-color: black">
+                        <h1 class="display-5 mb-5">UPDATE CRIME RECORD</h1>
+
+  <tr>
+    <th>Category</th>
+    <td>
+      <select name="select" id="select" class="form-control">
+          {% for i in data1 %}
+          <option value="{{ i.category_id }}">{{ i.crime_type }}</option>
+          {% endfor %}
+      </select></td>
+  </tr>
+  <tr>
+    <th>Record</th>
+    <td>
+      <input type="file" name="fileField" id="fileField" class="form-control" /></td>
+  </tr>
+{#  <tr>#}
+{#    <td>Date</td>#}
+{#    <td><label for="textfield2"></label>#}
+{#      <input type="date" name="textfield2" id="textfield2" /></td>#}
+{#  </tr>#}
+{#  <tr>#}
+{#    <td>Criminal</td>#}
+{#    <td><label for="select2"></label>#}
+{#      <select name="select2" id="select2">#}
+{#      </select></td>#}
+{#  </tr>#}
+  <tr>
+    <td colspan="2"align="center"><input type="submit" name="button" id="button" value="UPDATE" class="btn btn-outline-success" /></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+{% endblock %}

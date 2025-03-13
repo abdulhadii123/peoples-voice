@@ -1,0 +1,64 @@
+{% extends "POLICE/police_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th,td{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<form action="" method="get">
+<table class="table table-bordered" style="background-color: black">
+                    <h1 class="display-5 mb-5">VIEW CRIMINAL</h1>
+
+  <tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>DOB</th>
+    <th>Gender</th>
+    <th>Place</th>
+    <th>PIN</th>
+    <th>Post</th>
+    <th>District</th>
+    <th>Photo</th>
+    <th>Phone</th>
+      <th></th>
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>&nbsp;{{ i.name }}</td>
+    <td>&nbsp;{{ i.dob }}</td>
+    <td>{{ i.gender }}</td>
+    <td>&nbsp;{{ i.place }}</td>
+    <td>&nbsp;{{ i.pin }}</td>
+    <td>&nbsp;{{ i.post }}</td>
+    <td>&nbsp;{{ i.district }}</td>
+    <td>&nbsp;<img src="{{ i.image }}" height="100" width="100"/> </td>
+    <td>&nbsp;{{ i.phone_no }}</td>
+      <td>{% if i.status=='pending' %}
+              <a href="/set_most_wanted/{{ i.criminal_id }}" class="btn btn-success">SET AS MOST WANTED</a>
+          {% else %}
+          {{ i.status }}
+      {% endif %}</td>
+
+    <td><p><a href="/update_criminal/{{ i.criminal_id }}#f" class="btn btn-success">UPDATE</a></p>
+        <p><a href="/delete_criminal/{{ i.criminal_id }}#f" onclick="return confirm('Are you sure to delete?')"class="btn btn-danger">DELETE</a></p></td>
+      <td><p><a href="/add_record/{{ i.criminal_id }}#f" class="btn btn-secondary">Add record</a></p>
+      <p><a href="/view_record/{{ i.criminal_id }}#f" class="btn btn-success">view record</a></p></td>
+{#    <td><a href="/view_criminal_alert1/{{ i.criminal_id }}">view criminal alert</a> </td>#}
+
+  </tr>
+    {% endfor %}
+</table>
+</form>
+</body>
+</html>
+{% endblock %}

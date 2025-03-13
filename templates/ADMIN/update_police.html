@@ -1,0 +1,183 @@
+{% extends "ADMIN/admin_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th{
+            color: white;
+        }
+    </style>
+</head>
+
+<body><form action="" method="post">
+<table class="table table-bordered" style="background-color: black">
+                            <h1 class="display-5 mb-5">UPDATE POLICE  STATION</h1>
+
+  <tr>
+    <th>PLACE</th>
+    <td>
+      <input type="text" name="textfield" id="textfield" class="form-control" value="{{ data.place }}" /></td>
+  </tr>
+  <tr>
+    <th>LOCATION NAME</th>
+    <td>
+      <input type="text" name="textfield2" id="textfield2 " class="form-control" value="{{ data.location_name }}" /></td>
+  </tr>
+  <tr>
+    <th>LATITUDE</th>
+    <td>
+      <input type="text" name="textfield4" id="textfield4" class="form-control" value="{{ data.latitude }} " /></td>
+  </tr>
+  <tr>
+    <th>LONGITUDE</th>
+    <td>
+      <input type="text" name="textfield5" id="textfield5" class="form-control" value="{{ data.longitude }}" /></td>
+  </tr>
+  <tr>
+    <th>STATION NO</th>
+    <td>
+      <input type="number" name="textfield15" id="b" class="form-control" value="{{ data.station_no }}" /></td>
+  </tr>
+  <tr>
+    <th>EMAIL</th>
+    <td>
+      <input type="email" name="textfield6" id="textfield6" class="form-control" value="{{ data.email_id }}" readonly/></td>
+  </tr>
+  <tr>
+    <th>PHONE</th>
+    <td>
+      <input type="text" name="textfield7" id="textfield7" class="form-control" value="{{ data.phone }}" required/></td>
+  </tr>
+  <tr>
+            <td><div id="gmap"></div></td>
+        </tr>
+  <tr>
+    <td colspan="2" align="center"><input type="submit" name="button" id="button" value="UPDATE" class="btn btn-outline-success" /></td>
+    </tr>
+</table>
+
+</form>
+
+</body>
+</html>
+<style type="text/css">
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#map_canvas { height: 100% }
+</style>
+
+<script type="text/javascript"
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6v5-2uaq_wusHDktM9ILcqIrlPtnZgEk&sensor=false">
+</script>
+<script type="text/javascript">
+
+    var map;
+        function initialize() {
+            var myLatlng = new google.maps.LatLng(11.618061975930,75.36565089010);
+            var myOptions = {
+                zoom:7,
+                center: myLatlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            map = new google.maps.Map(document.getElementById("gmap"), myOptions);
+            // marker refers to a global variable
+            marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map
+            });
+
+            google.maps.event.addListener(map, "click", function(event) {
+                // get lat/lon of click
+                var clickLat = event.latLng.lat();
+                var clickLon = event.latLng.lng();
+
+                // show in input box
+                document.getElementById("textfield4").value = clickLat.toFixed(5);
+                document.getElementById("textfield5").value = clickLon.toFixed(5);
+
+{#                  var marker = new google.maps.Marker({#}
+{#                        position: new google.maps.LatLng(clickLat,clickLon),#}
+{#                        map: map#}
+{#                     });#}
+            });
+    }
+
+    window.onload = function () { initialize() };
+
+
+</script>
+     <style>
+ div#gmap {
+
+        width: 265%;
+        height: 400px;
+        border:double;
+ }
+    </style>
+
+{#    <form id="form1" runat="server">#}
+<center>
+<!-- MAP HOLDER -->
+
+<!-- REFERENCES -->
+{#Lat: <input type="text" id='lat'>#}
+{#Lon: <input type="text" id='lon'>#}
+
+</center>
+
+
+
+
+<script>
+
+function GetMylocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    //x.innerHTML = "Geolocation is not supported by this browser.";
+      alert("Geolocation is not supported by this browser.")
+  }
+}
+var x1 = document.getElementById("textfield4");
+var x2 = document.getElementById("textfield5");
+var map;
+function showPosition(position) {
+  x1.value=position.coords.latitude;
+  x2.value=position.coords.longitude;
+
+  var myLatlng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+            var myOptions = {
+                zoom:14,
+                center: myLatlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            map = new google.maps.Map(document.getElementById("gmap"), myOptions);
+            // marker refers to a global variable
+            marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map
+            });
+
+            google.maps.event.addListener(map, "click", function(event) {
+                // get lat/lon of click
+                var clickLat = event.latLng.lat();
+                var clickLon = event.latLng.lng();
+
+                // show in input box
+                document.getElementById("textfield4").value = clickLat.toFixed(5);
+                document.getElementById("textfield5").value = clickLon.toFixed(5);
+
+{#                  var marker = new google.maps.Marker({#}
+{#                        position: new google.maps.LatLng(clickLat,clickLon),#}
+{#                        map: map#}
+{#                     });#}
+            });
+
+
+}
+</script>
+{% endblock %}

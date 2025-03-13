@@ -1,0 +1,99 @@
+{% extends "POLICE/police_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th{
+            color: white;
+        }
+    </style>
+</head>
+
+<body><form action="" method="post" enctype="multipart/form-data">
+<table class="table table-bordered" style="background-color: black">
+                        <h1 class="display-5 mb-5">ADD CRIMINAL </h1>
+
+  <tr>
+    <th>Name</th>
+    <td>
+      <input type="text" name="textfield" id="textfield" class="form-control" required/></td>
+  </tr>
+  <tr>
+    <th>DOB</th>
+    <td>
+      <input type="date" name="textfield2" id="textfield2"  class="form-control" required/></td>
+  </tr>
+  <tr>
+    <th>Gender</th>
+    <td><p>
+      <label>
+        <input type="radio" name="RadioGroup1" value="MALE" id="RadioGroup1_0"  checked/>
+        MALE
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="RadioGroup1" value="FEMALE" id="RadioGroup1_1"   />
+        FEMALE
+      </label>
+      <br />
+    </p></td>
+  </tr>
+  <tr>
+    <th>Place</th>
+    <td>
+      <input type="text" name="textfield3" id="textfield3" class="form-control" required /></td>
+  </tr>
+  <tr>
+    <th>PIN</th>
+    <td>
+      <input type="text" name="textfield4" id="textfield4" class="form-control" required pattern="[0-9]{6}"/></td>
+  </tr>
+  <tr>
+    <th>Post</th>
+    <td>
+      <input type="text" name="textfield5" id="textfield5" class="form-control" required/></td>
+  </tr>
+  <tr>
+    <th>District</th>
+    <td>
+      <select name="select" size="1" id="select" class="form-control" required>
+          <option>--select--</option>
+        <option>kannur</option>
+        <option>kozhikode</option>
+        <option>wayanad</option>
+        <option>kollam</option>
+        <option>thiruvananthapuram</option>
+        <option>thirssur</option>
+        <option>kasargode</option>
+        <option>idukki</option>
+        <option>palakkad</option>
+        <option>malappuram</option>
+        <option>ernakulam</option>
+        <option>kottayam</option>
+        <option>patanamthitta</option>
+        <option>alappuzha</option>
+      </select></td>
+  </tr>
+  <tr>
+    <th>Photo</th>
+    <td>
+      <input type="file" name="fileField" id="fileField" class="form-control" required /></td>
+  </tr>
+  <tr>
+    <th>Phone</th>
+    <td>
+      <input type="text" name="textfield6" id="textfield6" class="form-control" required  pattern="[9876][0-9]{9}"/></td>
+  </tr>
+  <tr>
+    <td colspan="2"align="center"><input type="submit" name="button" id="button" value="ADD" class="btn btn-primary" /></td>
+    </tr>
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

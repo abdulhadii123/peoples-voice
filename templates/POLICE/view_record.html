@@ -1,0 +1,43 @@
+{% extends "POLICE/police_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th,td{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="get">
+<table class="table table-bordered"  style="background-color: black">
+                    <h1 class="display-5 mb-5">VIEW CRIME RECORD</h1>
+
+  <tr>
+    <th>#</th>
+    <th>Category</th>
+    <th>Record</th>
+    <th>Date</th>
+{#    <td>Name</td>#}
+    <th>&nbsp;</th>
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>&nbsp;{{ i.crime_type }}</td>
+    <td>&nbsp;<a href="{{ i.records }}">View</a> </td>
+    <td>&nbsp;{{ i.date }}</td>
+{#    <td>&nbsp;{{ i.name }}</td>#}
+    <td><p><a href="/update_record/{{ i.record_id }}#f" class="btn btn-success">UPDATE</a></p>
+      <p><a href="/delete_record/{{ i.record_id }}#f"onclick="return confirm('Are you sure to delete?')" class="btn btn-danger">DELETE</a></p></td>
+  </tr>
+    {% endfor %}
+</table>
+</form>
+</body>
+</html>
+{% endblock %}

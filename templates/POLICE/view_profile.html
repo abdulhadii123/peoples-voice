@@ -1,0 +1,57 @@
+{% extends "POLICE/police_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th,td{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<form action="" method="get">
+<table class="table table-bordered"  style="background-color: black">
+                        <h1 class="display-5 mb-5">VIEW PROFILE</h1>
+
+  <tr>
+    <th>Place</th>
+    <td>&nbsp;{{ data.place }}</td>
+  </tr>
+  <tr>
+    <th>Location Name</th>
+    <td>{{ data.location_name }}</td>
+  </tr>
+{#  <tr>#}
+{#    <td>Latitude</td>#}
+{#    <td>&nbsp;{{ data.latitude }}</td>#}
+{#  </tr>#}
+{#  <tr>#}
+{#    <td>Longitude</td>#}
+{#    <td>&nbsp;{{ data.longitude }}</td>#}
+{#  </tr>#}
+  <tr>
+    <th>Station no</th>
+    <td>&nbsp;{{ data.station_no }}</td>
+  </tr>
+  <tr>
+    <th>Email</th>
+    <td>&nbsp;{{ data.email_id }}</td>
+  </tr>
+  <tr>
+    <th>Phone</th>
+    <td>&nbsp;{{ data.phone }}</td>
+  </tr>
+{#    <tr>#}
+{#  <td> <p ><a href="http://maps.google.com/?q={{ data.latitude }},{{ data.longitude }}"target="-blank">LOCATE</a></td>#}
+{#    </tr>#}
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

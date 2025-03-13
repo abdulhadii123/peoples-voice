@@ -1,0 +1,57 @@
+{% extends "ADMIN/admin_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th,td{
+            color: white;
+        }
+    </style>
+</head>
+
+<body><form action="" method="post">
+{#<table class="table table-bordered" style="background-color: black">#}
+{#                        <h1 class="display-5 mb-5">VIEW CRIMINAL ALERT</h1>#}
+{#<tr>#}
+{#    <th>Sender Type</th>#}
+{#    <td><select name="s" class="form-control">#}
+{#        <option>user</option>#}
+{#        <option>cctv</option>#}
+{#    </select></td>#}
+{#</tr>#}
+{#    <tr>    <td colspan="2" align="center"><input type="submit" value="SUBMIT" class="btn btn-outline-secondary"/></td>#}
+{#    </tr>#}
+{##}
+{#</table>#}
+<table class="table table-bordered" style="background-color: black">
+<h1 class="display-5 mb-5">VIEW CRIMINAL ALERT</h1>
+  <tr>
+    <th>#</th>
+    <th>SENDER DETAILS</th>
+    <th>CRIMINAL DETAILS</th>
+    <th>DATE</th>
+    <th>TYPE</th>
+{#    <th>LATITUDE</th>#}
+    <th>LOCATION</th>
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>&nbsp;{{ i.un }}<br>{{ i.ph }}</td>
+    <td>{{ i.cn }}<br><img src="{{ i.im }}" height="100" width="100"/> </td>
+    <td>{{ i.date }}</td>
+    <td>&nbsp;{{ i.type }}</td>
+{#    <td>&nbsp;{{ i.latitude }}</td>#}
+            <td><a href="http://maps.google.com/?q={{ i.latitude }},{{ i.longitude }}"target="-blank" class="btn btn-outline-success">LOCATE</a></td>
+  </tr>
+    {% endfor %}
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

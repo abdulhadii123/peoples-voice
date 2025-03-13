@@ -1,0 +1,66 @@
+{% extends "ADMIN/admin_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th,td{
+            color: white;
+        }
+    </style>
+</head>
+
+<body><form action="" method="get">
+<table class="table table-bordered" style="background-color: black">
+                    <h1 class="display-5 mb-5">VIEW MISSING PERSON</h1>
+
+  <tr>
+    <th>#</th>
+    <th>NAME</th>
+    <th>AGE</th>
+    <th>GENDER</th>
+    <th>PLACE</th>
+    <th>MISSING DATE</th>
+    <th>RELATIVE CONTACT</th>
+    <th>IMAGE</th>
+    <th>HEIGHT</th>
+    <th>WEIGHT</th>
+    <th>STATION PLACE</th>
+    <th>LANGUAGE</th>
+    <th>DISABILITY</th>
+    <th>STATUS</th>
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>{{ loop.index }}</td>
+    <td>&nbsp;{{ i.name }}</td>
+    <td>{{ i.age }}</td>
+    <td>&nbsp;{{ i.gender }}</td>
+    <td>&nbsp;{{ i.place }}</td>
+    <td>&nbsp;{{ i.missing_date }}</td>
+    <td>&nbsp;{{ i.contact_number }}</td>
+    <td>&nbsp;<img src="{{ i.image }}" height="100" width="100" ></td>
+    <td>&nbsp;{{ i.height }}</td>
+    <td>&nbsp;{{ i.weight }}</td>
+    <td>&nbsp;{{ i.station_place}}</td>
+    <td>&nbsp;{{ i.known_language }}</td>
+    <td>&nbsp;{{ i.disability }}</td>
+      {% if i.status=='pending' %}
+{#    <td>{{ i.status }}</td>#}
+    <td><p><a href="/found_missing_person/{{ i.missing_id }}"class="btn btn-outline-success">FOUND</a></p>
+      <p><a href="/notfound_missing_person/{{ i.missing_id }} "class="btn btn-outline-success">NOT FOUND</a></p></td>
+  {% else %}
+   <td>{{ i.status }}</td>
+{% endif %}
+  </tr>
+    {% endfor %}
+</table>
+
+
+</form>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "POLICE/police_home_index.html" %}
+{% block body %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        th{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<form action="" method="post">
+<table class="table table-bordered" style="background-color: black">
+                    <h1 class="display-5 mb-5">ADD MOST WANTED</h1>
+
+  <tr>
+    <th>Criminal</th>
+    <td>
+      <select name="select" id="select" class="form-control" required>
+      <option>--select--</option>
+          {% for i in data %}
+            <option value="{{ i.criminal_id }}">{{ i.name }}</option>
+          {% endfor %}
+      </select></td>
+  </tr>
+{#  <tr>#}
+{#    <td>Status</td>#}
+{#    <td><label for="textfield"></label>#}
+{#      <input type="text" name="textfield" id="textfield" class="form-control" required/></td>#}
+{#  </tr>#}
+  <tr>
+    <td colspan="2"align="center"><input type="submit" name="button" id="button" value="ADD" class="btn btn-outline-secondary" /></td>
+    </tr>
+</table>
+
+</form>
+</body>
+</html>
+
+{% endblock %}
